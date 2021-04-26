@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+main {
+    display: flex;
+}
+section {
+    width: 50%;
+    height: 90vh;
+}
+#end a img {   
+    width: 20px;
+}
+#timeless h5 {
+    padding-left: 5%;
+}
+#timeless h1 {
+   margin-top: 40%;
+   margin-bottom: 10%;
+   font-size: 2rem;
+   padding-left: 5%;
+}
+#timeless p {
+    width: 70%;
+    color: grey;
+    line-height: 1.7rem;
+    padding-left: 5%;
+    margin-bottom: 45%;
+}
+#radio {
+    background: url(../img/2_1_media_queries.jpeg) center / cover no-repeat;
+}
+#radio h2 {
+    padding-left: 5%;
+    font-size: 2rem;
+}
+#radio h2 span {
+    color: grey;
+    font-size: 1rem;
+}
+
+#end {
+    background: #f2f2f2;
+    height: 11vh;
+    display: flex;
+
+}
+#end .logo {
+   padding-left: 3%;
+   padding-top: 3%;
+   display: inline-block;
+   width: 48%;
+}
+#end .logo a img {
+    padding-right: 2%
+}
+#end .less {
+    width: 45%;
+    text-align: end;
+    padding-right: 2%;
+}
+.less h2 span {
+    color: grey;
+    display: block;
+    font-size: 1.2rem;
+}
+#pfeil {
+    display: flex;
+    align-items: center;
+}
+
+#pfeil .links::before {
+    content: "\2190";
+   
+}
+#pfeil .rechts::before {
+    content: "\2192";
+    background: black;
+    color: white;
+    padding: 4vh;
+    margin-left: 3%;
+}
+.links {
+    width: 40px;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+    section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+   
+}
